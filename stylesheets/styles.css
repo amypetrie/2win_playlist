@@ -1,0 +1,40 @@
+body {
+  color: black;
+  margin: 0px;
+  background-color: lightgray;
+}
+
+header {
+  background-color: darkgray;
+  padding: 10px;
+  width: 100%;
+  display: grid;
+}
+
+.links {
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20%; 
+}
+
+.links h1 {
+  margin-left: 440px;
+}
+
+.shares_container {
+  display: grid;
+}
+
+.grid_person {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows: 50% 50%;
+}
+
+
+.person {
+  margin: 10px;
+}
+
+.img {
+  display: grid;
+}
